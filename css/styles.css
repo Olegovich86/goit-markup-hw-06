@@ -387,3 +387,147 @@ button {
 /*--------------------------------------- */
 
 /*-------------- Section work---------------- */
+
+.section {
+  padding: 96px 0px;
+}
+
+.work-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 72px;
+}
+
+.work-menu-item {
+  /* flex-basis: calc((100% - 72px) / 4); */
+  width: 100%;
+}
+
+.work-icon-block {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
+
+.work-menu-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.work-menu-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 96px 0px;
+  }
+
+  .work-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .work-menu-item {
+    flex-basis: calc((100% - 24px) / 2);
+    /* width: 100%; */
+  }
+
+  .work-icon-block {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+  }
+
+  .work-menu-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+
+  .work-menu-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .section {
+    padding: 120px 0px;
+  }
+
+  .work-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
+
+  .work-menu-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .work-icon-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+  }
+
+  .work-icon-svg {
+  }
+
+  .work-menu-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  .work-menu-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    display: block;
+  }
+}
