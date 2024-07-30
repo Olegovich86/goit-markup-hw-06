@@ -173,22 +173,22 @@
 
 /*------------------ Section footer---------------- */
 
-.footer {
+/* .footer {
   background: #2e2f42;
   padding: 100px 0;
-}
+} */
 
-.footer-container {
+/* .footer-container {
   display: flex;
   align-items: flex-start;
   align-items: baseline;
-}
+} */
 
 .footer-one {
   margin-right: 120px;
 }
 
-.footer-logo {
+/* .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -198,49 +198,49 @@
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
-}
+} */
 
-.footer-logo-color {
+/* .footer-logo-color {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #f4f4fd;
-}
+} */
 
-.footer-text {
+/* .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-}
+} */
 
-.footer-two {
+/* .footer-two {
   align-items: center;
   justify-content: left;
-}
+} */
 
-.footer-two-text {
+/* .footer-two-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
+} */
 
-.footer-two-main {
+/* .footer-two-main {
   display: flex;
   gap: 16px;
-}
+} */
 
-.footer-two-list {
+/* .footer-two-list {
   width: 40px;
   height: 40px;
-}
+} */
 
-.footer-two-link {
+/* .footer-two-link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -249,39 +249,39 @@
   background-color: #4d5ae5;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.footer-two-link:hover,
+/* .footer-two-link:hover,
 .footer-two-link:focus {
   background-color: #31d0aa;
 }
 
 .footer-two-svg {
   fill: #f4f4fd;
-}
+} */
 
-.footer-three {
+/* .footer-three {
   margin-left: auto;
-}
+} */
 
-.footer-form {
+/* .footer-form {
   display: flex;
   gap: 24px;
-}
+} */
 
 .footer-label {
 }
 
-.three-par {
+/* .three-par {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-bottom: 16px;
-}
+} */
 
-.footer-input {
+/* .footer-input {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: 1px solid #ffffff;
   width: 264px;
@@ -293,11 +293,11 @@
   padding-left: 16px;
   border-radius: 4px;
   color: #ffffff;
-}
+} */
 
-.footer-input::placeholder {
+/* .footer-input::placeholder {
   color: #ffffff;
-}
+} */
 
 .footer-btn {
   min-width: 165px;
