@@ -1168,3 +1168,27 @@ button {
     background-color: #31d0aa;
   }
 }
+
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    max-width: 1158px;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin: 0 auto;
+    gap: 0;
+  }
+
+  .footer-one {
+    margin-right: 120px;
+  }
+
+  .footer-two {
+    margin-right: 80px;
+  }
+
+  .footer-three {
+    flex-wrap: nowrap;
+  }
+}
+
+/* ------------------------------------------------ */
