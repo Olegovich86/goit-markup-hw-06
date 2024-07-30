@@ -1133,6 +1133,10 @@ button {
     color: #ffffff;
   }
 
+  .footer-input {
+    width: 264px;
+  }
+
   .footer-btn {
     min-width: 165px;
     height: 40px;
@@ -1154,7 +1158,13 @@ button {
     text-align: left;
   }
 
-  .footer-label {
-    /* width: 264px; */
+  .telegram {
+    margin-left: 16px;
+    fill: #fff;
+  }
+
+  .footer-btn:hover,
+  .footer-btn:focus {
+    background-color: #31d0aa;
   }
 }
