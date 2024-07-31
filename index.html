@@ -45,16 +45,16 @@
         </ul>
       </address>
 
-      <button class="burger-btn" type="button">
+      <button class="burger-btn" type="button" data-menu-open>
         <svg class="burger-icon" width="24" height="24">
           <use href="./images/icons.svg#icon-icon-burger"></use>
         </svg>
       </button>
     </div>
   </header>
-  <div class="mobile-menu">
+  <div class="mobile-menu" data-menu>
     <div class="container mobile-menu-container">
-      <button type="button" class="mobile-close-btn">
+      <button type="button" class="mobile-close-btn" data-menu-close>
         <svg class="mobile-icon-close" width="8" height="8">
           <use href="./images/icons.svg#icon-close-black"></use>
         </svg>
@@ -79,31 +79,31 @@
         </ul>
       </div>
       <ul class="social-menu-list">
-        <li class="social-icon-list">
+        <li class="social-menu-list">
+          <a href="" class="social-menu-link">
+            <svg class="social-icon" width="16" height="40">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-menu-list">
           <a href="" class="social-menu-link">
             <svg class="social-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-instagram-2"></use>
+              <use href="./images/icons.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
-        <li class="social-icon-list">
-          <a href="" class="social-link">
+        <li class="social-menu-list">
+          <a href="" class="social-menu-link">
             <svg class="social-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-twitter-1"></use>
+              <use href="./images/icons.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
-        <li class="social-icon-list">
-          <a href="" class="social-link">
+        <li class="social-menu-list">
+          <a href="" class="social-menu-link">
             <svg class="social-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-facebook-1"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="social-icon-list">
-          <a href="" class="social-link">
-            <svg class="social-icon" width="16" height="16">
-              <use href="./images/icons.svg#icon-linkedin-1"></use>
+              <use href="./images/icons.svg#icon-linkedin"></use>
             </svg>
           </a>
         </li>
@@ -547,6 +547,7 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script src="./js/menu.js"></script>
 </body>
 
 </html>

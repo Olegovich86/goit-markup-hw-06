@@ -981,6 +981,11 @@ button {
   margin-bottom: 16px;
 }
 
+.telegram {
+  margin-left: 16px;
+  fill: #fff;
+}
+
 .footer-form {
   display: flex;
   flex-wrap: wrap;
@@ -1023,6 +1028,11 @@ button {
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 61px;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #31d0aa;
 }
 
 @media screen and (min-width: 768px) {
@@ -1433,11 +1443,9 @@ button {
   width: 100%;
   height: 100%;
   background-color: #fff;
-
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1461,10 +1469,105 @@ button {
   position: absolute;
   top: 24px;
   right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mobile-close-btn:hover,
+.mobile-close-btn:focus {
+  background-color: #404bbf;
+  border: none;
+}
+
+.mobile-close-btn:hover .mobile-icon-close,
+.mobile-close-btn:focus .mobile-icon-close {
+  fill: #ffffff;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu-nav {
   margin-bottom: auto;
+}
+
+.menu-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.nav-menu-link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-menu-link:hover,
+.nav-menulink:focus {
+  color: #404bbf;
+}
+
+.address-menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.menu-tel-mail {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu-tel-mail:hover,
+.menu-tel-mail:focus {
+  color: #4d5ae5;
+}
+
+.address-menu-container {
+  display: flex;
+  margin-bottom: 48px;
+}
+
+.social-menu-list {
+  display: flex;
+  gap: 40px;
+}
+
+.social-menu-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-menu-link:hover,
+.social-menu-link:focus {
+  background-color: #404bbf;
 }
 
 @media screen and (min-width: 768px) {
