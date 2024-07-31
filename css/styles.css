@@ -797,6 +797,10 @@ button {
     flex-wrap: wrap;
     gap: 72px 24px;
   }
+
+  .portfolio-menu-list {
+    max-width: calc((100% - 48px) / 2);
+  }
 }
 
 @media screen and (min-width: 1158px) {
