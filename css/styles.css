@@ -1434,14 +1434,13 @@ button {
 }
 
 .span-oll {
-  text-decoration: none;
 }
 
 .span-privacy {
   margin-right: 6px;
 }
 
-.checkbox-input:checked + .user-privacy span {
+.checkbox-input:checked + .user-privacy span.span-privacy {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
