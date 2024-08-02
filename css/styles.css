@@ -563,11 +563,11 @@ button {
 
   .work-menu-title {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    display: block;
+
     margin-bottom: 8px;
   }
 
@@ -677,6 +677,7 @@ button {
 @media screen and (min-width: 1158px) {
   .team {
     background: #f4f4fd;
+    padding: 120px 0;
   }
 
   .team-subtitle {
